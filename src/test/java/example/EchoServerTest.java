@@ -1,9 +1,8 @@
 package example;
 
-import com.xianlinbox.toggle.AnotherToggleRule;
-import com.xianlinbox.toggle.ToggleDisabled;
-import com.xianlinbox.toggle.ToggleEnabled;
-import com.xianlinbox.toggle.ToggleRule;
+import com.thoughtworks.toggle.ToggleDisabled;
+import com.thoughtworks.toggle.ToggleEnabled;
+import com.thoughtworks.toggle.ToggleRule;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -21,7 +20,7 @@ public class EchoServerTest {
     EchoServer server;
 
     @Rule
-    public AnotherToggleRule anotherToggleRule = new AnotherToggleRule();
+    public ToggleRule anotherToggleRule = new ToggleRule();
 
     @Before
     public void setUp() throws Exception {
@@ -46,19 +45,27 @@ public class EchoServerTest {
         assertThat(server.echo("xianlinbox"), is("Toggle is on, xianlinbox"));
     }
 
-//
-//    @Test
-//    @ToggleEnabled({MyFeatureToggle.STAGE1, MyFeatureToggle.STAGE2})
-//    public void testMultipleToggle() throws Exception {
-//        assertThat(server.multipleToggleEcho("xianlinbox"), is("TestFeature is on, Stage 1 is on, Stage 2 is on, xianlinbox"));
-//
-//    }
-//
-//    @Test
-//    @ToggleDisabled({MyFeatureToggle.TEST_FEATURE,MyFeatureToggle.STAGE1})
-//    @ToggleEnabled(MyFeatureToggle.STAGE2)
-//    public void testMixedToggle() throws Exception {
-//        assertThat(server.multipleToggleEcho("xianlinbox"), is("Stage 2 is on, xianlinbox"));
-//
-//    }
+
+    @Test
+    @ToggleEnabled(toggleClass = "example.MyFeatureToggle",toggleNames = {"STAGE1","STAGE2"})
+    public void testMultipleToggle() throws Exception {
+        assertThat(server.multipleToggleEcho("xianlinbox"), is("TestFeature is on, Stage 1 is on, Stage 2 is on, xianlinbox"));
+
+    }
+
+    @Test
+    @ToggleDisabled(toggleClass = "example.MyFeatureToggle",toggleNames = {"STAGE1","TEST_FEATURE"})
+    @ToggleEnabled(toggleClass = "example.MyFeatureToggle",toggleNames = "STAGE2")
+    public void testMixedToggle() throws Exception {
+        assertThat(server.multipleToggleEcho("xianlinbox"), is("Stage 2 is on, xianlinbox"));
+
+    }
+
+    @Test
+    @ToggleDisabled(toggleClass = "example.MyFeatureToggle", toggleNames = {"STAGE1", "TEST_FEATURE"})
+    @ToggleEnabled(toggleClass = "example.MyFeatureToggle2", toggleNames = "TEST_FEATURE_2")
+    public void testMixedMultipleToggle() throws Exception {
+        assertThat(server.multipleToggleEcho("xianlinbox"), is("TestFeature 2 is on, xianlinbox"));
+
+    }
 }

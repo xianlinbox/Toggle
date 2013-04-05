@@ -31,6 +31,9 @@ public class EchoServer {
         if (MyFeatureToggle.STAGE2.isEnabled()) {
             sb.append("Stage 2 is on, ");
         }
+        if (MyFeatureToggle2.TEST_FEATURE_2.isEnabled()) {
+            sb.append("TestFeature 2 is on, ");
+        }
         sb.append(input);
         return sb.toString();
 

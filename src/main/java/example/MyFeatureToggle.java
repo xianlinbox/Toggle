@@ -1,7 +1,7 @@
 package example;
 
-import com.xianlinbox.toggle.Toggle;
-import com.xianlinbox.toggle.ToggleStatus;
+import com.thoughtworks.toggle.Toggle;
+import com.thoughtworks.toggle.ToggleStatus;
 
 import java.util.HashMap;
 import java.util.Map;

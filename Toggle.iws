@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java" line="43" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java" line="42" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" name="Default" comment="" />
@@ -9,19 +9,21 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/FeatureToggle.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1364970741398" ignored="false" />
     <file path="/fragment.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365059332918" ignored="false" />
-    <file path="/ToggleEnabled.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365132455980" ignored="false" />
+    <file path="/ToggleEnabled.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365158387702" ignored="false" />
     <file path="/MyFeatureToggle.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365061677316" ignored="false" />
-    <file path="/ToggleStatus.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1364971313628" ignored="false" />
-    <file path="/ToggleDisabled.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365075370934" ignored="false" />
+    <file path="/ToggleStatus.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365158465942" ignored="false" />
+    <file path="/ToggleDisabled.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365158413105" ignored="false" />
     <file path="/Test.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1364983328848" ignored="false" />
-    <file path="/EchoServer.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365075108817" ignored="false" />
-    <file path="/build.gradle" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1364985088513" ignored="false" />
-    <file path="/EchoServerTest.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365075615300" ignored="false" />
+    <file path="/EchoServer.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365160129726" ignored="false" />
+    <file path="/build.gradle" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365161866159" ignored="false" />
+    <file path="/EchoServerTest.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365160105568" ignored="false" />
     <file path="$PROJECT_DIR$/../../../git_home/moco/build.gradle" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1364985512981" ignored="false" />
-    <file path="/ToggleRule.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365061877068" ignored="false" />
+    <file path="/ToggleRule.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365161534543" ignored="false" />
     <file path="/MyFeatureToggleTest.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365132317584" ignored="false" />
     <file path="/ToggleConfig.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365069324362" ignored="false" />
-    <file path="/AnotherToggleRule.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365132810309" ignored="false" />
+    <file path="/AnotherToggleRule.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365157849021" ignored="false" />
+    <file path="/Toggle.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365158396164" ignored="false" />
+    <file path="/MyFeatureToggle2.java" changelist="1e587f4c-2bcd-45be-9b22-4abcd74a8e18" time="1365160157588" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,6 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,50 +73,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleRule.java" line="3" class="ToggleRule.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/example/EchoServerTest.java" line="52" class="example.EchoServerTest" package="example">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleRule.java" line="27" class="com.xianlinbox.toggle.ToggleRule$1" package="com.xianlinbox.toggle">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/example/EchoServerTest.java" line="39" class="example.EchoServerTest" package="example">
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleRule.java" line="22" class="com.thoughtworks.toggle.ToggleRule$1" package="com.thoughtworks.toggle">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -140,36 +100,69 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ToggleEnabled.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleEnabled.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleEnabled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Toggle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/Toggle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="28" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToggleStatus.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="12" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ToggleRule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleRule.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="55" selection-start="1497" selection-end="1674" vertical-scroll-proportion="0.0">
+            <state line="78" column="0" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#971#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#493#1301#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnotherToggleRule.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/AnotherToggleRule.java">
+      <file leaf-file-name="MyFeatureToggle2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/MyFeatureToggle2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="15" selection-start="2439" selection-end="2650" vertical-scroll-proportion="2.159836">
+            <state line="12" column="18" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#534#1493#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.4989518">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToggleDisabled.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleDisabled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,18 +170,7 @@
       <file leaf-file-name="MyFeatureToggleTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Toggle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/Toggle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,45 +179,16 @@
       <file leaf-file-name="MyFeatureToggle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/example/MyFeatureToggle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enum.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0u4.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
+      <file leaf-file-name="EchoServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="22" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0u4.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3002" column="13" selection-start="122904" selection-end="122904" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#127086#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#14451#14695#0" expanded="false" />
-                <element signature="e#14668#14669#0" expanded="false" />
-                <element signature="e#54605#55377#0" expanded="false" />
-                <element signature="e#55362#55363#0" expanded="false" />
-                <element signature="e#118581#119740#0" expanded="false" />
-                <element signature="e#119725#119726#0" expanded="false" />
-                <element signature="e#120801#121050#0" expanded="false" />
-                <element signature="e#121023#121024#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoServerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/example/EchoServerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="20" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+            <state line="33" column="43" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -251,20 +204,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/Test.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/example/MyFeatureToggle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/FeatureToggle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/example/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleDisabled.java" />
-        <option value="$PROJECT_DIR$/src/test/java/example/EchoServerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleRule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/Toggle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleEnabled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/Toggle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/AnotherToggleRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleEnabled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleDisabled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/Toggle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/MyFeatureToggle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/example/EchoServerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/MyFeatureToggle2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/EchoServer.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -298,8 +253,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,18 +284,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -381,10 +322,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,6 +353,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,7 +401,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyFeatureToggleTest.testInitFromString">
+  <component name="RunManager" selected="JUnit.EchoServerTest">
     <configuration default="false" name="EchoServerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Toggle" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -475,28 +427,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyFeatureToggleTest.testGetStatus" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Toggle" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example" />
-      <option name="MAIN_CLASS_NAME" value="example.MyFeatureToggleTest" />
-      <option name="METHOD_NAME" value="testGetStatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -529,6 +459,62 @@
       <option name="PACKAGE_NAME" value="example" />
       <option name="MAIN_CLASS_NAME" value="example.MyFeatureToggleTest" />
       <option name="METHOD_NAME" value="testInitFromString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EchoServerTest.testEchoToggleOff" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Toggle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.EchoServerTest" />
+      <option name="METHOD_NAME" value="testEchoToggleOff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EchoServerTest.testMixedMultipleToggle" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Toggle" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example" />
+      <option name="MAIN_CLASS_NAME" value="example.EchoServerTest" />
+      <option name="METHOD_NAME" value="testMixedMultipleToggle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,18 +624,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EchoServerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetStatus" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetOriginStatus" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testInitFromString" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetOriginStatus" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testInitFromString" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EchoServerTest.testEchoToggleOff" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EchoServerTest.testMixedMultipleToggle" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testInitFromString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EchoServerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetOriginStatus" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetStatus" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EchoServerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EchoServerTest.testMixedMultipleToggle" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EchoServerTest.testEchoToggleOff" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testInitFromString" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyFeatureToggleTest.testGetOriginStatus" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -686,13 +674,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39775562" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -701,8 +689,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67206985" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32793018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6745636" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,48 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/rules/ExternalResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="895" selection-end="903" vertical-scroll-proportion="0.3319672">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/rules/TemporaryFolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="706" selection-end="706" vertical-scroll-proportion="0.78483605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleDisabled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="453" selection-end="507" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/example/EchoServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="20" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
@@ -819,54 +765,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleRule.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/rules/ExternalResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="1497" selection-end="1674" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#971#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="36" column="55" selection-start="895" selection-end="903" vertical-scroll-proportion="0.3319672" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-15/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/rules/TemporaryFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="706" selection-end="706" vertical-scroll-proportion="0.78483605" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0u4.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3002" column="13" selection-start="122904" selection-end="122904" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#127086#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#14451#14695#0" expanded="false" />
-            <element signature="e#14668#14669#0" expanded="false" />
-            <element signature="e#54605#55377#0" expanded="false" />
-            <element signature="e#55362#55363#0" expanded="false" />
-            <element signature="e#118581#119740#0" expanded="false" />
-            <element signature="e#119725#119726#0" expanded="false" />
-            <element signature="e#120801#121050#0" expanded="false" />
-            <element signature="e#121023#121024#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/Toggle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/MyFeatureToggle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -878,21 +789,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/ToggleEnabled.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleEnabled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xianlinbox/toggle/AnotherToggleRule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleDisabled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="15" selection-start="2439" selection-end="2650" vertical-scroll-proportion="2.159836">
+        <state line="18" column="25" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/Toggle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/MyFeatureToggle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/example/MyFeatureToggleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thoughtworks/toggle/ToggleRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#493#1301#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/MyFeatureToggle2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#534#1493#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="43" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/example/EchoServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1918" selection-end="1918" vertical-scroll-proportion="1.9245284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.4989518">
+          <folding />
         </state>
       </provider>
     </entry>

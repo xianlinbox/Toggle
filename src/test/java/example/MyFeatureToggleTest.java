@@ -1,13 +1,12 @@
 package example;
 
-import com.xianlinbox.toggle.Toggle;
-import com.xianlinbox.toggle.ToggleStatus;
+import com.thoughtworks.toggle.Toggle;
+import com.thoughtworks.toggle.ToggleStatus;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
