@@ -29,6 +29,7 @@ public enum MyFeatureToggle implements Toggle {
         return status.equals(ToggleStatus.ON);
     }
 
+    @Override
     public ToggleStatus getStatus() {
         return status;
     }

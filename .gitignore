@@ -1,7 +1,6 @@
 target/
 build/
 .idea/
-key.asc
 gradle.properties
 .gradle/
 out/
