@@ -31,7 +31,7 @@ public class MyFeatureToggleTest {
 
         Class featureToggle =  Class.forName("example.MyFeatureToggle");
 
-        Map<Object, ToggleStatus> statusMap = new HashMap<>();
+        Map<Object, ToggleStatus> statusMap = new HashMap<Object, ToggleStatus>();
 
         for (Object toggle : featureToggle.getEnumConstants()) {
             statusMap.put(toggle,((Toggle)toggle).getStatus());

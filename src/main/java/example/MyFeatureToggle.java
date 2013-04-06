@@ -34,7 +34,7 @@ public enum MyFeatureToggle implements Toggle {
     }
 
     public static Map<MyFeatureToggle, ToggleStatus> getStatusMap() {
-        Map<MyFeatureToggle, ToggleStatus> statusMap = new HashMap<>();
+        Map<MyFeatureToggle, ToggleStatus> statusMap = new HashMap<MyFeatureToggle, ToggleStatus>();
         for (MyFeatureToggle toggle : MyFeatureToggle.values()) {
             statusMap.put(toggle, toggle.getStatus());
         }

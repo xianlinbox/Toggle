@@ -22,7 +22,7 @@ public class ToggleRule implements TestRule {
             public void evaluate() throws Throwable {
                 ToggleEnabled toggleEnabledAnnotation = description.getAnnotation(ToggleEnabled.class);
                 ToggleDisabled toggleDisabledAnnotation = description.getAnnotation(ToggleDisabled.class);
-                Map<Object, ToggleStatus> originStatusMap = new HashMap<>();
+                Map<Object, ToggleStatus> originStatusMap = new HashMap<Object, ToggleStatus>();
 
                 processedEnabledAnnotation(toggleEnabledAnnotation, originStatusMap);
                 processedDisabledAnnotation(toggleDisabledAnnotation, originStatusMap);
