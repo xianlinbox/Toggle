@@ -3,6 +3,9 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'signing'
 
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
 repositories {
     mavenCentral();
 }
@@ -10,7 +13,6 @@ repositories {
 dependencies {
     compile(
             'junit:junit:4.11',
-            'commons-lang:commons-lang:2.6',
     )
 }
 

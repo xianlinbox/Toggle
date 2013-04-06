@@ -1,6 +1,5 @@
 package com.thoughtworks.toggle;
 
-import org.apache.commons.lang.ArrayUtils;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
@@ -76,9 +75,29 @@ public class ToggleRule implements TestRule {
     }
 
     private void updateToggleStatus(String[] toggleNames, Toggle toggle, ToggleStatus status) {
-        if (ArrayUtils.contains(toggleNames, toggle.name())) {
+        if (isToggleInToggleNamesArray(toggleNames, toggle.name())) {
             toggle.setStatus(status);
         }
+    }
+
+    private boolean isToggleInToggleNamesArray(String[] toggleNames, String name) {
+            if (toggleNames == null) {
+                return false;
+            }
+            if (name == null) {
+                for (int i = 0; i < toggleNames.length; i++) {
+                    if (toggleNames[i] == null) {
+                        return true;
+                    }
+                }
+            } else if (toggleNames.getClass().getComponentType().isInstance(name)) {
+                for (int i = 0; i < toggleNames.length; i++) {
+                    if (name.equals(toggleNames[i])) {
+                        return true;
+                    }
+                }
+            }
+            return false;
     }
 
     private void addToggleIntoMapIfAbsent(Map<Object, ToggleStatus> originStatusMap, Object toggle) {
@@ -98,5 +117,7 @@ public class ToggleRule implements TestRule {
         Class<?> toggleClass = Class.forName(toggleClassName);
         return toggleClass.getEnumConstants();
     }
+
+
 
 }
