@@ -9,7 +9,7 @@ I'm trying to push this project into Maven central repository, Now it's waiting 
 ###step1: Include This Tool Into Your Project
 There are three ways to include this tool into your project.
 * 1. Using Maven depency(coming soon)
-* 2. Download the jar directly ([Toggle.jar](https://github.com/xianlinbox/Toggle/blob/master/build/libs/Toggle.jar)) and add it into your project classpath
+* 2. Download the project directly ([Download](https://github.com/xianlinbox/Toggle/archive/master.zip)) and add build/libs/Toggle.jar into your project classpath
 * 3. Clone the source codes and add them into your project.
 
 ###step1：Define Your Own Toggle Class
