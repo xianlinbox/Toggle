@@ -7,9 +7,10 @@ Feature Toggle is common concept in the current software development process, es
 I'm trying to push this project into Maven central repository, Now it's waiting aprroval from Sonatype. when it's done, we can easily using maven depency include this little tool.
 
 ###step1: Include This Tool Into Your Project
-There are two method to include this tool into your project.
-* 1. Download the jar and add it into your project classpath
-* 2. Using Maven depency
+There are three ways to include this tool into your project.
+* 1. Using Maven depency(coming soon)
+* 2. Download the jar directly [Toggle.jar](https://github.com/xianlinbox/Toggle/blob/master/build/libs/Toggle.jar) and add it into your project classpath
+* 3. Clone the source codes and add them into your project.
 
 ###step1：Define Your Own Toggle Class
 Your feature toggle class must implements interface Toggle and must using ToggleStatus enum as the switch of Feature Toggle.
