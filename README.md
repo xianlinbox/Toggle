@@ -8,7 +8,7 @@ I'm trying to push this project into Maven central repository, Now it's waiting 
 
 ###step1: Include This Tool Into Your Project
 There are three ways to include this tool into your project.
-* 1. Using Maven/Gradle depency
+* 1. Using Maven/Gradle dependency
 * 2. Download the Toggle.jar directly ([Download](https://oss.sonatype.org/content/repositories/snapshots/com/thoughtworks/toggle/Toggle/0.1.0-SNAPSHOT/Toggle-0.1.0-20130411.100215-1.jar)) and add it into your project classpath
 * 3. Clone the source codes and add them into your project.
 
