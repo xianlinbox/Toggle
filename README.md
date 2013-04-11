@@ -9,7 +9,7 @@ I'm trying to push this project into Maven central repository, Now it's waiting 
 ###step1: Include This Tool Into Your Project
 There are three ways to include this tool into your project.
 * 1. Using Maven depency
-```groovy
+```
 repositories {
 	maven{
 		url 'https://oss.sonatype.org/content/groups/public'
