@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
+ * This Class implements TestRule, which add some logic before and after one test action.
  * User: xianlinbox
  * Date: 4/4/13
  * Time: 9:38 PM

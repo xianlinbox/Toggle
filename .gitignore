@@ -1,5 +1,4 @@
 target/
-!build/libs/*
 build/*
 .idea/
 gradle.properties

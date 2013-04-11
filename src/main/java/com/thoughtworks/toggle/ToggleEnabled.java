@@ -8,7 +8,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created with IntelliJ IDEA.
+ * ToggleEnabled Annotation, all the Toggle added into this Annotation will be turn on.
  * User: xianlinbox
  * Date: 4/3/13
  * Time: 4:34 PM

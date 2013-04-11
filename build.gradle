@@ -3,6 +3,8 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'signing'
 
+group = 'com.thoughtworks.toggle'
+version = '0.1.0-SNAPSHOT'
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
@@ -21,13 +23,9 @@ uploadArchives {
         mavenDeployer {
             beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
 
-            repository(url: "https://oss.sonatype.org/content/repositories/snapshots") {
+            repository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
                 authentication(userName: sonatypeUsername, password: sonatypePassword)
             }
-
-            pom.groupId = "com.thoughtworks"
-            pom.version = '0.1-snapshot'
-            pom.artifactId = 'toggle'
 
             pom.project {
                 name project.name
@@ -66,8 +64,8 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 }
 
 task sourcesJar(type: Jar) {
-    from sourceSets.main.allSource
     classifier = 'sources'
+    from sourceSets.main.allSource
 }
 
 artifacts {
